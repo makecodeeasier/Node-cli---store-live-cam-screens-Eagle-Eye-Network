@@ -1,0 +1,21 @@
+{
+    "name": "getimages-cli",
+    "version": "1.0.0",
+    "description": "CLI for GetImages from cameras network.",
+    "license": "ISC",
+    "repository": "",
+    "preferGlobal": true,
+    "engines": {
+        "node": "8 || 9 || 10"
+    },
+    "bin": {
+        "index": "./bin/index.js"
+    },
+    "dependencies": {
+        "axios": "^0.21.0",
+        "chalk": "^2.4.2",
+        "commander": "^2.19.0",
+        "fs": "0.0.1-security",
+        "node-fetch": "^2.6.1"
+    }
+}
